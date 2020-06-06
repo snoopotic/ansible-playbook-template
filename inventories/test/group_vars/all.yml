@@ -1,0 +1,4 @@
+---
+system_stage: 'test'
+
+ansible_no_log: 'false'

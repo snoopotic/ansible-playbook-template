@@ -1,0 +1,4 @@
+---
+system_stage: 'production'
+
+ansible_no_log: 'true'

@@ -1,0 +1,5 @@
+## PRODUCTION MACHINES
+
+# name all docker hosts or hostgroups to roll out the prep roles
+[dockerhosts:children]
+

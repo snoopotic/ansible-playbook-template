@@ -1,0 +1,13 @@
+---
+
+- hosts: dockerhosts
+  become: 'true'
+
+  vars:
+    pip_install_packages:
+      - name: docker
+    docker_install_compose: 'false'
+  
+  roles:
+    - geerlingguy.pip
+    - geerlingguy.docker

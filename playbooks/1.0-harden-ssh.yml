@@ -1,0 +1,15 @@
+---
+
+- hosts: all
+  user: root
+  
+  vars:
+    ssh_permit_root_login: 'without-password'
+    ssh_use_pam: 'True'
+    os_auth_pw_max_age: 99999
+    sftp_enabled: 'True'
+
+  roles:
+    - dev-sec.os-hardening
+    - dev-sec.ssh-hardening
+    - ssh-keys

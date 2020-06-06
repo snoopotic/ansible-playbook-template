@@ -1,0 +1,5 @@
+.vault
+*.retry
+.idea
+localtest
+.vscode
